@@ -8,8 +8,6 @@
     </NuGetPackageImportStamp>
     <UseCodebase>true</UseCodebase>
     <TargetFrameworkProfile />
-    <Version>2.3.0</Version>
-    <AssemblyVersion>2.3.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -211,6 +209,10 @@
     </Content>
     <Content Include="..\lib\efpt22.exe.zip">
       <Link>efpt22.exe.zip</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\lib\efpt30.exe.zip">
+      <Link>efpt30.exe.zip</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="efpt.renaming.json" />
